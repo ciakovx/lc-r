@@ -221,8 +221,8 @@ library(tidyverse)  # loads the core tidyverse, including dplyr, readr, ggplot2,
 
 
 ~~~
-✔ ggplot2 3.3.3     ✔ dplyr   1.0.5
-✔ tibble  3.1.1     ✔ stringr 1.4.0
+✔ ggplot2 3.3.3     ✔ dplyr   1.0.6
+✔ tibble  3.1.2     ✔ stringr 1.4.0
 ✔ tidyr   1.1.3     ✔ forcats 0.5.1
 ✔ purrr   0.3.4     
 ~~~
@@ -299,7 +299,7 @@ spreadsheets from your hard drive (or the web).
 
 A tibble is an extension of `R` data frames used by the _tidyverse_. When the 
 data is read using `read_csv()`, it is stored in an object of class `tbl_df`, 
-`tbl`,  and `data.frame`. You can see the class of an object with
+`tbl`,  and `data.frame`. You can see the class of an object with `class()`.
 
 
 ## Inspecting data frames
